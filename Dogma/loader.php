@@ -5,6 +5,9 @@
  * Copyright (c) 2012 Vlasta Neubauer (@paranoiq)
  *
  * For the full copyright and license information read the file 'license.md', distributed with this source code
+ *
+ * forked from paranoiq/dogma
+ * v0.9.0
  */
 
 define('DOGMA_DIR', __DIR__);
