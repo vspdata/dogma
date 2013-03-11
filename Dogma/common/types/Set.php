@@ -24,7 +24,7 @@ abstract class Set implements SimpleValueObject {
      * @param self|string|string[]
      */
     final public function __construct($set = array()) {
-        $this->add($set);
+        $this->add($set === NULL ? array() : $set);
     }
 
 
