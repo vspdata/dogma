@@ -40,7 +40,7 @@ class TextFile extends File {
      * @return self
      */
     public function setEncoding($encoding) {
-        $this->encoding = strtolower($encoding);
+        $this->encoding = $encoding;
 
         return $this;
     }
